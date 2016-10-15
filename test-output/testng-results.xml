@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17644" started-at="2016-10-02T07:24:02Z" finished-at="2016-10-02T07:24:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17644" started-at="2016-10-02T07:24:02Z" finished-at="2016-10-02T07:24:20Z">
+      <class name="com.easybix.DDF.Tests.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.easybix.DDF.Tests.LoginTest@48ae9b55]" name="init" is-config="true" duration-ms="15719" started-at="2016-10-02T12:53:46Z" finished-at="2016-10-02T12:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.easybix.DDF.Tests.LoginTest@48ae9b55]" name="sampleTest" duration-ms="17618" started-at="2016-10-02T12:54:02Z" finished-at="2016-10-02T12:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.easybix.DDF.Tests.LoginTest@48ae9b55]" name="tearDown" is-config="true" duration-ms="1212" started-at="2016-10-02T12:54:20Z" finished-at="2016-10-02T12:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.easybix.DDF.Tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

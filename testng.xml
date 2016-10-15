@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+
+  <test name="Registration Test">
+    <classes>
+      <class name="com.easybix.DDF.Tests.RegistrationTest"/>
+      
+    </classes>
+  </test>
+  
+  <test name="Login Test">
+    <classes>
+      <class name="com.easybix.DDF.Tests.LoginTest"/> 
+    </classes>
+  </test>
+  
+</suite>
+
+

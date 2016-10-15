@@ -1,0 +1,8 @@
+com\easybix\DDF\Tests\UpdateStatusTest.class
+com\easybix\DDF\utils\TestUtil.class
+com\easybix\DDF\Tests\LoginTest.class
+com\easybix\DDF\Tests\RegistrationTest.class
+com\easybix\DDF\utils\CaptureScreenshotUtil.class
+com\easybix\DDF\core\TestBase.class
+com\easybix\DDF\utils\Xls_Reader.class
+com\easybix\DDF\utils\Contants.class

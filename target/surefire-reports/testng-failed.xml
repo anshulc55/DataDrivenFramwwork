@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Example test run]">
+  <test name="Registration Test">
+    <classes>
+      <class name="com.easybix.DDF.Tests.RegistrationTest"/>
+    </classes>
+  </test> <!-- Registration Test -->
+  <test name="Login Test">
+    <classes>
+      <class name="com.easybix.DDF.Tests.LoginTest"/>
+    </classes>
+  </test> <!-- Login Test -->
+  <test name="Registration Test(failed)">
+    <classes>
+      <class name="com.easybix.DDF.Tests.LoginTest">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.easybix.DDF.Tests.LoginTest -->
+      <class name="com.easybix.DDF.Tests.RegistrationTest">
+        <methods>
+          <include name="doRegistration"/>
+          <include name="init"/>
+          <include name="doRegistrationCopy"/>
+        </methods>
+      </class> <!-- com.easybix.DDF.Tests.RegistrationTest -->
+    </classes>
+  </test> <!-- Registration Test(failed) -->
+</suite> <!-- Failed suite [Example test run] -->
